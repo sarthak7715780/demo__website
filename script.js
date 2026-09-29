@@ -1,0 +1,1 @@
+document.getElementById("form").addEventListener("submit",function(e){e.preventDefault();document.getElementById("msg").textContent="Message sent successfully.";this.reset();});
